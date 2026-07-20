@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serene Mind - Spiritual & Meditation Sanctuary</title>
+    <!-- Internal CSS for styling background and text colors -->
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f5f2eb;
+            color: #332f2b;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        header, section, footer {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: #2c5282;
+        }
+        h2, h3 {
+            color: #2b6cb0;
+        }
+        a {
+            color: #319795;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #e2e8f0;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #e6fffa;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section / Top Navigation -->
+    <div id="top">
+        <header>
+            <!-- Main Heading (h1) -->
+            <h1>Serene Mind Sanctuary</h1>
+            <p><em>Your peaceful haven for inner mindfulness, meditation, and spiritual growth.</em></p>
+            
+            <!-- Quick Navigation Links (Internal Link & Bookmark Link) -->
+            <nav>
+                <p>
+                    <strong>Quick Navigation:</strong> 
+                    <a href="#about">About Meditation</a> | 
+                    <a href="#schedule">Retreat Schedule</a> | 
+                    <a href="#practices">Practices & Terms</a> | 
+                    <a href="#contact">Contact Us</a>
+                </p>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Main About Meditation Section -->
+    <!-- Comment: About & Featured Article Module -->
+    <div id="about">
+        <section>
+            <!-- Section Subheading (h2) -->
+            <h2>The Art of Mindfulness & Daily Meditation</h2>
+            
+            <!-- Paragraphs (p) -->
+            <p>Meditation is a practice where an individual uses a technique – such as mindfulness, or focusing the mind on a particular object, thought, or activity – to train attention and awareness, achieving a mentally clear and emotionally calm state.</p>
+            
+            <p>Regular spiritual practice helps reduce stress, improves emotional resilience, enhances focus, and fosters deep personal peace in daily life.</p>
+
+            <!-- Clickable Image Link & Descriptive Image with alt tag -->
+            <p><strong>Featured Guidance (Click image to explore Chopra Guided Meditation):</strong></p>
+            <a href="https://chopra.com" target="_blank">
+                <img src="https://picsum.photos/600/300" alt="Person meditating peacefully near a serene lake" width="100%" style="max-width:600px; height:auto; border-radius: 5px;">
+            </a>
+
+            <!-- External Link with target="_blank" -->
+            <p>Explore deeper spiritual guidance at <a href="https://chopra.com" target="_blank">Chopra Meditation Portal</a>.</p>
+        </section>
+    </div>
+
+    <!-- Data Table Section -->
+    <!-- Comment: Retreat Schedule Module -->
+    <div id="schedule">
+        <section>
+            <h2>Weekly Spiritual Retreat Schedule</h2>
+            <p>Join our interactive online and offline mindfulness sessions:</p>
+            
+            <!-- Table with rows and columns -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time Session</th>
+                        <th>Meditation Technique</th>
+                        <th>Instructor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>06:00 AM - 07:00 AM</td>
+                        <td>Sunrise Pranayama & Yoga</td>
+                        <td>Swami Ananda</td>
+                    </tr>
+                    <tr>
+                        <td>12:30 PM - 01:00 PM</td>
+                        <td>Mindful Breathing Break</td>
+                        <td>Elena Rostova</td>
+                    </tr>
+                    <tr>
+                        <td>05:00 PM - 06:00 PM</td>
+                        <td>Sound Bath & Chakra Healing</td>
+                        <td>Master Kenji</td>
+                    </tr>
+                    <tr>
+                        <td>08:00 PM - 08:30 PM</td>
+                        <td>Guided Evening Reflection</td>
+                        <td>Sarah Jenkins</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <!-- Lists Section -->
+    <!-- Comment: Practices and Glossary Module -->
+    <div id="practices">
+        <section>
+            <h2>Spiritual Practices & Glossary</h2>
+
+            <!-- Nested Ordered List (ol with li) -->
+            <h3>4 Steps to Start Daily Meditation</h3>
+            <ol>
+                <li>
+                    Find a Quiet Space
+                    <ol type="a">
+                        <li>Ensure minimal ambient noise</li>
+                        <li>Sit comfortably with upright posture</li>
+                    </ol>
+                </li>
+                <li>Focus on Breath Movement</li>
+                <li>Acknowledge Thoughts Without Judgment</li>
+            </ol>
+
+            <!-- Nested Unordered List (ul with li) -->
+            <h3>Core Meditation Disciplines</h3>
+            <ul>
+                <li>
+                    Mindfulness Meditation
+                    <ul>
+                        <li>Body Scan Technique</li>
+                        <li>Loving-Kindness (Metta)</li>
+                        <li>Vipassana</li>
+                    </ul>
+                </li>
+                <li>Transcendental Meditation</li>
+                <li>Guided Visualization</li>
+            </ul>
+
+            <!-- Description List (dl, dt, dd) -->
+            <h3>Spiritual Terminology</h3>
+            <dl>
+                <dt><strong>Prana</strong></dt>
+                <dd>The universal life force energy that flows through all living beings.</dd>
+                
+                <dt><strong>Mantra</strong></dt>
+                <dd>A sacred word, sound, or phrase repeated to aid concentration during meditation.</dd>
+                
+                <dt><strong>Chakra</strong></dt>
+                <dd>Energy centers in the human body that correspond to physical and spiritual functions.</dd>
+            </dl>
+        </section>
+    </div>
+
+    <!-- Footer & Contact Links Section -->
+    <!-- Comment: Footer Module -->
+    <div id="contact">
+        <footer>
+            <h2>Contact Our Sanctuary</h2>
+            <p>Reach out to our spiritual guides for consultations or inquiries:</p>
+            
+            <!-- Email Link (mailto:) -->
+            <p>📧 Email Us: <a href="mailto:peace@serenemind.org">peace@serenemind.org</a></p>
+            
+            <!-- Phone Link (tel:) -->
+            <p>📞 Phone Hotline: <a href="tel:+18005557777">+1 (800) 555-7777</a></p>
+
+            <!-- Bookmark Link back to top -->
+            <p><a href="#top">⬆ Back to Top</a></p>
+            
+            <p>&copy; 2026 Serene Mind Sanctuary. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
